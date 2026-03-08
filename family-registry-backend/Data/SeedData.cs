@@ -74,8 +74,8 @@ public static class SeedData
                 Spouse = new Spouse { Name = "Fatema Akter", NID = "1991234567890" },
                 Children = new List<Child>
                 {
-                    new() { Name = "Arif Hasan", DateOfBirth = new DateTime(2018, 3, 15) },
-                    new() { Name = "Ayesha Hasan", DateOfBirth = new DateTime(2020, 7, 22) }
+                    new() { Name = "Arif Hasan", DateOfBirth = new DateTime(2018, 3, 15, 0, 0, 0, DateTimeKind.Utc) },
+                    new() { Name = "Ayesha Hasan", DateOfBirth = new DateTime(2020, 7, 22, 0, 0, 0, DateTimeKind.Utc) }
                 }
             },
             new()
@@ -88,7 +88,7 @@ public static class SeedData
                 Spouse = new Spouse { Name = "Kamal Uddin", NID = "8834567823" },
                 Children = new List<Child>
                 {
-                    new() { Name = "Nusrat Rahman", DateOfBirth = new DateTime(2015, 11, 5) }
+                    new() { Name = "Nusrat Rahman", DateOfBirth = new DateTime(2015, 11, 5, 0, 0, 0, DateTimeKind.Utc) }
                 }
             },
             new()
@@ -101,9 +101,9 @@ public static class SeedData
                 Spouse = new Spouse { Name = "Shabnam Nahar", NID = "19961234567890124" },
                 Children = new List<Child>
                 {
-                    new() { Name = "Rafid Ahmed", DateOfBirth = new DateTime(2019, 1, 10) },
-                    new() { Name = "Rania Ahmed", DateOfBirth = new DateTime(2021, 6, 18) },
-                    new() { Name = "Rayan Ahmed", DateOfBirth = new DateTime(2023, 9, 2) }
+                    new() { Name = "Rafid Ahmed", DateOfBirth = new DateTime(2019, 1, 10, 0, 0, 0, DateTimeKind.Utc) },
+                    new() { Name = "Rania Ahmed", DateOfBirth = new DateTime(2021, 6, 18, 0, 0, 0, DateTimeKind.Utc) },
+                    new() { Name = "Rayan Ahmed", DateOfBirth = new DateTime(2023, 9, 2, 0, 0, 0, DateTimeKind.Utc) }
                 }
             },
             new()
@@ -124,7 +124,7 @@ public static class SeedData
                 Spouse = new Spouse { Name = "Rehana Akter", NID = "19891234567890126" },
                 Children = new List<Child>
                 {
-                    new() { Name = "Saiful Islam", DateOfBirth = new DateTime(2012, 4, 20) }
+                    new() { Name = "Saiful Islam", DateOfBirth = new DateTime(2012, 4, 20, 0, 0, 0, DateTimeKind.Utc) }
                 }
             },
             new()
@@ -137,8 +137,8 @@ public static class SeedData
                 Spouse = new Spouse { Name = "Jahidul Haque", NID = "8867890156" },
                 Children = new List<Child>
                 {
-                    new() { Name = "Labib Haque", DateOfBirth = new DateTime(2017, 8, 30) },
-                    new() { Name = "Lamisa Haque", DateOfBirth = new DateTime(2020, 2, 14) }
+                    new() { Name = "Labib Haque", DateOfBirth = new DateTime(2017, 8, 30, 0, 0, 0, DateTimeKind.Utc) },
+                    new() { Name = "Lamisa Haque", DateOfBirth = new DateTime(2020, 2, 14, 0, 0, 0, DateTimeKind.Utc) }
                 }
             },
             new()
@@ -168,8 +168,8 @@ public static class SeedData
                 Spouse = new Spouse { Name = "Sumaiya Akter", NID = "19861234567890130" },
                 Children = new List<Child>
                 {
-                    new() { Name = "Zarin Haque", DateOfBirth = new DateTime(2016, 5, 25) },
-                    new() { Name = "Zarif Haque", DateOfBirth = new DateTime(2019, 12, 1) }
+                    new() { Name = "Zarin Haque", DateOfBirth = new DateTime(2016, 5, 25, 0, 0, 0, DateTimeKind.Utc) },
+                    new() { Name = "Zarif Haque", DateOfBirth = new DateTime(2019, 12, 1, 0, 0, 0, DateTimeKind.Utc) }
                 }
             },
             new()
@@ -182,7 +182,7 @@ public static class SeedData
                 Spouse = new Spouse { Name = "Monir Hossain", NID = "8890123489" },
                 Children = new List<Child>
                 {
-                    new() { Name = "Farhan Hossain", DateOfBirth = new DateTime(2014, 10, 8) }
+                    new() { Name = "Farhan Hossain", DateOfBirth = new DateTime(2014, 10, 8, 0, 0, 0, DateTimeKind.Utc) }
                 }
             }
         };
