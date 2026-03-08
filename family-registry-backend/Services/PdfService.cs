@@ -106,13 +106,13 @@ public class PdfService
 
                     col.Item().PaddingTop(10).Row(row =>
                     {
-                        row.RelativeColumn().Column(inner =>
+                        row.RelativeItem().Column(inner =>
                         {
                             AddField(inner, "Full Name", emp.Name);
                             AddField(inner, "NID", emp.NID);
                             AddField(inner, "Phone", emp.Phone);
                         });
-                        row.RelativeColumn().Column(inner =>
+                        row.RelativeItem().Column(inner =>
                         {
                             AddField(inner, "Department", emp.Department);
                             AddField(inner, "Basic Salary", $"৳{emp.BasicSalary:N0} /month");
@@ -130,11 +130,11 @@ public class PdfService
                     {
                         col.Item().PaddingTop(10).Row(row =>
                         {
-                            row.RelativeColumn().Column(inner =>
+                            row.RelativeItem().Column(inner =>
                             {
                                 AddField(inner, "Spouse Name", emp.Spouse.Name);
                             });
-                            row.RelativeColumn().Column(inner =>
+                            row.RelativeItem().Column(inner =>
                             {
                                 AddField(inner, "Spouse NID", emp.Spouse.NID);
                             });
@@ -218,7 +218,7 @@ public class PdfService
         col.Item().PaddingBottom(8).Row(row =>
         {
             row.AutoItem().Text($"{label}: ").Bold().FontSize(10);
-            row.RelativeColumn().Text(value).FontSize(10);
+            row.RelativeItem().Text(value).FontSize(10);
         });
     }
 }

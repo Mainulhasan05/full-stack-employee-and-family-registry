@@ -4,3 +4,4 @@ family-registry-ui/dist
 family-registry-ui/coverage
 family-registry-backend/obj
 family-registry-backend/.vs
+family-registry-backend/.env

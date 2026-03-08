@@ -13,6 +13,9 @@ using QuestPDF.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Load .env file if it exists
+DotNetEnv.Env.Load();
+
 // QuestPDF License
 QuestPDF.Settings.License = LicenseType.Community;
 
