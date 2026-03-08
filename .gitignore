@@ -1,0 +1,6 @@
+family-registry-backend/bin
+family-registry-ui/node_modules
+family-registry-ui/dist
+family-registry-ui/coverage
+family-registry-backend/obj
+family-registry-backend/.vs
